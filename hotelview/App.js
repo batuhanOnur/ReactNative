@@ -3,12 +3,14 @@ import { StyleSheet, ScrollView, View, Text, } from 'react-native';
 import { colors } from "./styles";
 
 import HotelView from "./screens/HotelView";
+import ProfileView from "./screens/ProfileView";
 
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <HotelView />
+      <ProfileView />
     </ScrollView>
   )
 
