@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
 
     listTitle: {
-        fontSize: 24,
+        fontSize: 22,
         fontWeight: '700',
         color: Colors.white,
         marginBottom: 18
